@@ -13,6 +13,8 @@
 		7ACC2F461B4500960051CE94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACC2F451B4500960051CE94 /* Images.xcassets */; };
 		7ACC2F491B4500960051CE94 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ACC2F471B4500960051CE94 /* LaunchScreen.xib */; };
 		7ACC2F551B4500960051CE94 /* shareAndDeleteFoodPinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC2F541B4500960051CE94 /* shareAndDeleteFoodPinTests.swift */; };
+		7ACC2F5F1B4501740051CE94 /* RestaurantListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC2F5E1B4501740051CE94 /* RestaurantListTableViewController.swift */; };
+		7ACC2F611B4502890051CE94 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC2F601B4502890051CE94 /* RestaurantTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		7ACC2F4E1B4500960051CE94 /* shareAndDeleteFoodPinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shareAndDeleteFoodPinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACC2F531B4500960051CE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ACC2F541B4500960051CE94 /* shareAndDeleteFoodPinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shareAndDeleteFoodPinTests.swift; sourceTree = "<group>"; };
+		7ACC2F5E1B4501740051CE94 /* RestaurantListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantListTableViewController.swift; sourceTree = "<group>"; };
+		7ACC2F601B4502890051CE94 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +81,11 @@
 		7ACC2F3B1B4500960051CE94 /* shareAndDeleteFoodPin */ = {
 			isa = PBXGroup;
 			children = (
+				7ACC2F421B4500960051CE94 /* Main.storyboard */,
+				7ACC2F5E1B4501740051CE94 /* RestaurantListTableViewController.swift */,
+				7ACC2F601B4502890051CE94 /* RestaurantTableViewCell.swift */,
 				7ACC2F3E1B4500960051CE94 /* AppDelegate.swift */,
 				7ACC2F401B4500960051CE94 /* ViewController.swift */,
-				7ACC2F421B4500960051CE94 /* Main.storyboard */,
 				7ACC2F451B4500960051CE94 /* Images.xcassets */,
 				7ACC2F471B4500960051CE94 /* LaunchScreen.xib */,
 				7ACC2F3C1B4500960051CE94 /* Supporting Files */,
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ACC2F611B4502890051CE94 /* RestaurantTableViewCell.swift in Sources */,
 				7ACC2F411B4500960051CE94 /* ViewController.swift in Sources */,
+				7ACC2F5F1B4501740051CE94 /* RestaurantListTableViewController.swift in Sources */,
 				7ACC2F3F1B4500960051CE94 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7ACC2F3F1B4500960051CE94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC2F3E1B4500960051CE94 /* AppDelegate.swift */; };
+		7ACC2F411B4500960051CE94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC2F401B4500960051CE94 /* ViewController.swift */; };
+		7ACC2F441B4500960051CE94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACC2F421B4500960051CE94 /* Main.storyboard */; };
+		7ACC2F461B4500960051CE94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACC2F451B4500960051CE94 /* Images.xcassets */; };
+		7ACC2F491B4500960051CE94 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ACC2F471B4500960051CE94 /* LaunchScreen.xib */; };
+		7ACC2F551B4500960051CE94 /* shareAndDeleteFoodPinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC2F541B4500960051CE94 /* shareAndDeleteFoodPinTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7ACC2F4F1B4500960051CE94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ACC2F311B4500960051CE94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ACC2F381B4500960051CE94;
+			remoteInfo = shareAndDeleteFoodPin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7ACC2F391B4500960051CE94 /* shareAndDeleteFoodPin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shareAndDeleteFoodPin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACC2F3D1B4500960051CE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ACC2F3E1B4500960051CE94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7ACC2F401B4500960051CE94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7ACC2F431B4500960051CE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7ACC2F451B4500960051CE94 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7ACC2F481B4500960051CE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7ACC2F4E1B4500960051CE94 /* shareAndDeleteFoodPinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shareAndDeleteFoodPinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACC2F531B4500960051CE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ACC2F541B4500960051CE94 /* shareAndDeleteFoodPinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shareAndDeleteFoodPinTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ACC2F361B4500960051CE94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACC2F4B1B4500960051CE94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ACC2F301B4500960051CE94 = {
+			isa = PBXGroup;
+			children = (
+				7ACC2F3B1B4500960051CE94 /* shareAndDeleteFoodPin */,
+				7ACC2F511B4500960051CE94 /* shareAndDeleteFoodPinTests */,
+				7ACC2F3A1B4500960051CE94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7ACC2F3A1B4500960051CE94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ACC2F391B4500960051CE94 /* shareAndDeleteFoodPin.app */,
+				7ACC2F4E1B4500960051CE94 /* shareAndDeleteFoodPinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ACC2F3B1B4500960051CE94 /* shareAndDeleteFoodPin */ = {
+			isa = PBXGroup;
+			children = (
+				7ACC2F3E1B4500960051CE94 /* AppDelegate.swift */,
+				7ACC2F401B4500960051CE94 /* ViewController.swift */,
+				7ACC2F421B4500960051CE94 /* Main.storyboard */,
+				7ACC2F451B4500960051CE94 /* Images.xcassets */,
+				7ACC2F471B4500960051CE94 /* LaunchScreen.xib */,
+				7ACC2F3C1B4500960051CE94 /* Supporting Files */,
+			);
+			path = shareAndDeleteFoodPin;
+			sourceTree = "<group>";
+		};
+		7ACC2F3C1B4500960051CE94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ACC2F3D1B4500960051CE94 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7ACC2F511B4500960051CE94 /* shareAndDeleteFoodPinTests */ = {
+			isa = PBXGroup;
+			children = (
+				7ACC2F541B4500960051CE94 /* shareAndDeleteFoodPinTests.swift */,
+				7ACC2F521B4500960051CE94 /* Supporting Files */,
+			);
+			path = shareAndDeleteFoodPinTests;
+			sourceTree = "<group>";
+		};
+		7ACC2F521B4500960051CE94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ACC2F531B4500960051CE94 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ACC2F381B4500960051CE94 /* shareAndDeleteFoodPin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ACC2F581B4500960051CE94 /* Build configuration list for PBXNativeTarget "shareAndDeleteFoodPin" */;
+			buildPhases = (
+				7ACC2F351B4500960051CE94 /* Sources */,
+				7ACC2F361B4500960051CE94 /* Frameworks */,
+				7ACC2F371B4500960051CE94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shareAndDeleteFoodPin;
+			productName = shareAndDeleteFoodPin;
+			productReference = 7ACC2F391B4500960051CE94 /* shareAndDeleteFoodPin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7ACC2F4D1B4500960051CE94 /* shareAndDeleteFoodPinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ACC2F5B1B4500960051CE94 /* Build configuration list for PBXNativeTarget "shareAndDeleteFoodPinTests" */;
+			buildPhases = (
+				7ACC2F4A1B4500960051CE94 /* Sources */,
+				7ACC2F4B1B4500960051CE94 /* Frameworks */,
+				7ACC2F4C1B4500960051CE94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ACC2F501B4500960051CE94 /* PBXTargetDependency */,
+			);
+			name = shareAndDeleteFoodPinTests;
+			productName = shareAndDeleteFoodPinTests;
+			productReference = 7ACC2F4E1B4500960051CE94 /* shareAndDeleteFoodPinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ACC2F311B4500960051CE94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = poppinlr;
+				TargetAttributes = {
+					7ACC2F381B4500960051CE94 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7ACC2F4D1B4500960051CE94 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7ACC2F381B4500960051CE94;
+					};
+				};
+			};
+			buildConfigurationList = 7ACC2F341B4500960051CE94 /* Build configuration list for PBXProject "shareAndDeleteFoodPin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ACC2F301B4500960051CE94;
+			productRefGroup = 7ACC2F3A1B4500960051CE94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ACC2F381B4500960051CE94 /* shareAndDeleteFoodPin */,
+				7ACC2F4D1B4500960051CE94 /* shareAndDeleteFoodPinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ACC2F371B4500960051CE94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACC2F441B4500960051CE94 /* Main.storyboard in Resources */,
+				7ACC2F491B4500960051CE94 /* LaunchScreen.xib in Resources */,
+				7ACC2F461B4500960051CE94 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACC2F4C1B4500960051CE94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ACC2F351B4500960051CE94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACC2F411B4500960051CE94 /* ViewController.swift in Sources */,
+				7ACC2F3F1B4500960051CE94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACC2F4A1B4500960051CE94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACC2F551B4500960051CE94 /* shareAndDeleteFoodPinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7ACC2F501B4500960051CE94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ACC2F381B4500960051CE94 /* shareAndDeleteFoodPin */;
+			targetProxy = 7ACC2F4F1B4500960051CE94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7ACC2F421B4500960051CE94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ACC2F431B4500960051CE94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7ACC2F471B4500960051CE94 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ACC2F481B4500960051CE94 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ACC2F561B4500960051CE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7ACC2F571B4500960051CE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ACC2F591B4500960051CE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shareAndDeleteFoodPin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7ACC2F5A1B4500960051CE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shareAndDeleteFoodPin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7ACC2F5C1B4500960051CE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = shareAndDeleteFoodPinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shareAndDeleteFoodPin.app/shareAndDeleteFoodPin";
+			};
+			name = Debug;
+		};
+		7ACC2F5D1B4500960051CE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = shareAndDeleteFoodPinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shareAndDeleteFoodPin.app/shareAndDeleteFoodPin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ACC2F341B4500960051CE94 /* Build configuration list for PBXProject "shareAndDeleteFoodPin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACC2F561B4500960051CE94 /* Debug */,
+				7ACC2F571B4500960051CE94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ACC2F581B4500960051CE94 /* Build configuration list for PBXNativeTarget "shareAndDeleteFoodPin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACC2F591B4500960051CE94 /* Debug */,
+				7ACC2F5A1B4500960051CE94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7ACC2F5B1B4500960051CE94 /* Build configuration list for PBXNativeTarget "shareAndDeleteFoodPinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACC2F5C1B4500960051CE94 /* Debug */,
+				7ACC2F5D1B4500960051CE94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ACC2F311B4500960051CE94 /* Project object */;
+}

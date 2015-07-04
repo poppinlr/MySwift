@@ -124,6 +124,7 @@
                     <navigationItem key="navigationItem" id="nbF-mT-CXe"/>
                     <connections>
                         <outlet property="detailImage" destination="Yf4-k7-IPL" id="qb8-KO-cJA"/>
+                        <outlet property="tableView" destination="s0Z-Zo-dqM" id="vzh-ax-emN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y8k-QM-PeB" userLabel="First Responder" sceneMemberID="firstResponder"/>

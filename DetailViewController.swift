@@ -13,12 +13,25 @@ class DetailViewController: UIViewController ,UITableViewDataSource,UITableViewD
     @IBOutlet weak var detailImage:UIImageView!
 //    var detailImageName:String!
     var restaurants:Restaurant!
+    @IBOutlet weak var tableView:UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         detailImage.image = UIImage(named: restaurants.image)
+        
+        self.title = restaurants.name
+        // Remove extra separator
+        self.tableView.tableFooterView = UIView(frame: CGRectZero)
+        
+        // Change separator color
+        self.tableView.separatorColor = UIColor(red: 240.0/255.0, green: 240.0/255.0, blue: 240.0/255.0, alpha: 0.8)
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        self.navigationController?.hidesBarsOnSwipe = false
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
     }
 
     override func didReceiveMemoryWarning() {

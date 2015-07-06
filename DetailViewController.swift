@@ -33,6 +33,7 @@ class DetailViewController: UIViewController ,UITableViewDataSource,UITableViewD
     }
     
     override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
         self.navigationController?.hidesBarsOnSwipe = false
         self.navigationController?.setNavigationBarHidden(false, animated: true)
     }
@@ -79,5 +80,7 @@ class DetailViewController: UIViewController ,UITableViewDataSource,UITableViewD
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func close(segue:UIStoryboardSegue){
+        
+    }
 }

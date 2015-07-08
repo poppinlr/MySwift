@@ -38,7 +38,7 @@
                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Type" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Io7-z1-4m9">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Io7-z1-4m9">
                                             <rect key="frame" x="86" y="54" width="205" height="16"/>
                                             <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="11"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -46,18 +46,18 @@
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="psm-49-6Rw" firstAttribute="trailing" secondItem="9vV-P2-U7q" secondAttribute="trailing" constant="-8" id="2VB-sf-sVB"/>
-                                        <constraint firstItem="Io7-z1-4m9" firstAttribute="top" secondItem="9vV-P2-U7q" secondAttribute="bottom" id="3vB-MK-lh8"/>
-                                        <constraint firstItem="psm-49-6Rw" firstAttribute="top" secondItem="brj-ig-4SB" secondAttribute="topMargin" constant="1" id="7WL-2s-TmM"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="psm-49-6Rw" secondAttribute="trailing" constant="-4" id="8Ov-yl-2mb"/>
-                                        <constraint firstItem="rWB-ZB-H6L" firstAttribute="top" secondItem="brj-ig-4SB" secondAttribute="topMargin" constant="2" id="QQ7-BN-sTu"/>
-                                        <constraint firstItem="Io7-z1-4m9" firstAttribute="leading" secondItem="9vV-P2-U7q" secondAttribute="leading" id="RpB-Y6-ocK"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="Io7-z1-4m9" secondAttribute="bottom" constant="1.5" id="awC-Ef-58K"/>
-                                        <constraint firstItem="Io7-z1-4m9" firstAttribute="trailing" secondItem="9vV-P2-U7q" secondAttribute="trailing" id="jJB-Ek-fh6"/>
-                                        <constraint firstItem="psm-49-6Rw" firstAttribute="leading" secondItem="rWB-ZB-H6L" secondAttribute="trailing" constant="11" id="kNR-yc-ezm"/>
-                                        <constraint firstItem="9vV-P2-U7q" firstAttribute="top" secondItem="psm-49-6Rw" secondAttribute="bottom" constant="5" id="oqr-Jb-pDM"/>
-                                        <constraint firstItem="psm-49-6Rw" firstAttribute="leading" secondItem="9vV-P2-U7q" secondAttribute="leading" id="tYn-Gp-pyh"/>
-                                        <constraint firstItem="rWB-ZB-H6L" firstAttribute="leading" secondItem="brj-ig-4SB" secondAttribute="leadingMargin" constant="7" id="xcO-yd-BXy"/>
+                                        <constraint firstItem="9vV-P2-U7q" firstAttribute="leading" secondItem="psm-49-6Rw" secondAttribute="leading" id="7d6-eb-MWW"/>
+                                        <constraint firstItem="9vV-P2-U7q" firstAttribute="trailing" secondItem="Io7-z1-4m9" secondAttribute="trailing" id="8cz-ca-S4N"/>
+                                        <constraint firstItem="psm-49-6Rw" firstAttribute="leading" secondItem="rWB-ZB-H6L" secondAttribute="trailing" constant="11" id="TbX-pG-Twf"/>
+                                        <constraint firstItem="9vV-P2-U7q" firstAttribute="trailing" secondItem="psm-49-6Rw" secondAttribute="trailing" constant="8" id="Zfq-FO-O5c"/>
+                                        <constraint firstItem="9vV-P2-U7q" firstAttribute="leading" secondItem="Io7-z1-4m9" secondAttribute="leading" id="htc-uJ-tqX"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="9vV-P2-U7q" secondAttribute="bottom" constant="17.5" id="iSg-jU-Cg3"/>
+                                        <constraint firstItem="rWB-ZB-H6L" firstAttribute="top" secondItem="brj-ig-4SB" secondAttribute="topMargin" constant="2" id="jtA-r7-Ayb"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="psm-49-6Rw" secondAttribute="trailing" constant="-4" id="jtO-HU-OV2"/>
+                                        <constraint firstItem="psm-49-6Rw" firstAttribute="top" secondItem="brj-ig-4SB" secondAttribute="topMargin" constant="1" id="lpD-A0-YKu"/>
+                                        <constraint firstItem="rWB-ZB-H6L" firstAttribute="leading" secondItem="brj-ig-4SB" secondAttribute="leadingMargin" constant="7" id="u0z-MX-AAR"/>
+                                        <constraint firstItem="Io7-z1-4m9" firstAttribute="top" secondItem="9vV-P2-U7q" secondAttribute="bottom" id="xV8-dO-hV5"/>
+                                        <constraint firstItem="9vV-P2-U7q" firstAttribute="top" secondItem="brj-ig-4SB" secondAttribute="topMargin" constant="28" id="z9Q-ld-3Yp"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>

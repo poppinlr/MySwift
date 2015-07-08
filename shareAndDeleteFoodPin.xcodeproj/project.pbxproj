@@ -12,11 +12,9 @@
 		7AA31F771B476E9A004BEC05 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA31F761B476E9A004BEC05 /* Restaurant.swift */; };
 		7AC6973E1B4A2BE90062DCAE /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC6973D1B4A2BE90062DCAE /* ReviewViewController.swift */; };
 		7AC697401B4A88190062DCAE /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC6973F1B4A88190062DCAE /* ShareViewController.swift */; };
+		7AC697421B4D19BC0062DCAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC697411B4D19BC0062DCAE /* Images.xcassets */; };
 		7ACC2F3F1B4500960051CE94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC2F3E1B4500960051CE94 /* AppDelegate.swift */; };
-		7ACC2F411B4500960051CE94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC2F401B4500960051CE94 /* ViewController.swift */; };
 		7ACC2F441B4500960051CE94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACC2F421B4500960051CE94 /* Main.storyboard */; };
-		7ACC2F461B4500960051CE94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACC2F451B4500960051CE94 /* Images.xcassets */; };
-		7ACC2F491B4500960051CE94 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ACC2F471B4500960051CE94 /* LaunchScreen.xib */; };
 		7ACC2F551B4500960051CE94 /* shareAndDeleteFoodPinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC2F541B4500960051CE94 /* shareAndDeleteFoodPinTests.swift */; };
 		7ACC2F5F1B4501740051CE94 /* RestaurantListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC2F5E1B4501740051CE94 /* RestaurantListTableViewController.swift */; };
 		7ACC2F611B4502890051CE94 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC2F601B4502890051CE94 /* RestaurantTableViewCell.swift */; };
@@ -38,13 +36,11 @@
 		7AA31F761B476E9A004BEC05 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		7AC6973D1B4A2BE90062DCAE /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
 		7AC6973F1B4A88190062DCAE /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		7AC697411B4D19BC0062DCAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = SOURCE_ROOT; };
 		7ACC2F391B4500960051CE94 /* shareAndDeleteFoodPin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shareAndDeleteFoodPin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACC2F3D1B4500960051CE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ACC2F3E1B4500960051CE94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7ACC2F401B4500960051CE94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7ACC2F431B4500960051CE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7ACC2F451B4500960051CE94 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7ACC2F481B4500960051CE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7ACC2F4E1B4500960051CE94 /* shareAndDeleteFoodPinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shareAndDeleteFoodPinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACC2F531B4500960051CE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ACC2F541B4500960051CE94 /* shareAndDeleteFoodPinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shareAndDeleteFoodPinTests.swift; sourceTree = "<group>"; };
@@ -99,10 +95,8 @@
 				7AC6973D1B4A2BE90062DCAE /* ReviewViewController.swift */,
 				7AC6973F1B4A88190062DCAE /* ShareViewController.swift */,
 				7AA31F761B476E9A004BEC05 /* Restaurant.swift */,
-				7ACC2F451B4500960051CE94 /* Images.xcassets */,
 				7ACC2F3E1B4500960051CE94 /* AppDelegate.swift */,
-				7ACC2F401B4500960051CE94 /* ViewController.swift */,
-				7ACC2F471B4500960051CE94 /* LaunchScreen.xib */,
+				7AC697411B4D19BC0062DCAE /* Images.xcassets */,
 				7ACC2F3C1B4500960051CE94 /* Supporting Files */,
 			);
 			path = shareAndDeleteFoodPin;
@@ -213,9 +207,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AC697421B4D19BC0062DCAE /* Images.xcassets in Resources */,
 				7ACC2F441B4500960051CE94 /* Main.storyboard in Resources */,
-				7ACC2F491B4500960051CE94 /* LaunchScreen.xib in Resources */,
-				7ACC2F461B4500960051CE94 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +227,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ACC2F611B4502890051CE94 /* RestaurantTableViewCell.swift in Sources */,
-				7ACC2F411B4500960051CE94 /* ViewController.swift in Sources */,
 				7ACC2F5F1B4501740051CE94 /* RestaurantListTableViewController.swift in Sources */,
 				7AA31F771B476E9A004BEC05 /* Restaurant.swift in Sources */,
 				7AA31F751B476C74004BEC05 /* DetailViewController.swift in Sources */,
@@ -270,14 +262,6 @@
 				7ACC2F431B4500960051CE94 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7ACC2F471B4500960051CE94 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7ACC2F481B4500960051CE94 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -368,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = shareAndDeleteFoodPin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -378,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = shareAndDeleteFoodPin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

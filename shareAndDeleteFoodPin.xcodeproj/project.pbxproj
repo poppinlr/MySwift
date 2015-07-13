@@ -13,6 +13,8 @@
 		7AC6973E1B4A2BE90062DCAE /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC6973D1B4A2BE90062DCAE /* ReviewViewController.swift */; };
 		7AC697401B4A88190062DCAE /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC6973F1B4A88190062DCAE /* ShareViewController.swift */; };
 		7AC697421B4D19BC0062DCAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC697411B4D19BC0062DCAE /* Images.xcassets */; };
+		7AC697441B4D345D0062DCAE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC697431B4D345D0062DCAE /* MapKit.framework */; };
+		7AC697461B535A1F0062DCAE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC697451B535A1F0062DCAE /* MapViewController.swift */; };
 		7ACC2F3F1B4500960051CE94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC2F3E1B4500960051CE94 /* AppDelegate.swift */; };
 		7ACC2F441B4500960051CE94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACC2F421B4500960051CE94 /* Main.storyboard */; };
 		7ACC2F551B4500960051CE94 /* shareAndDeleteFoodPinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC2F541B4500960051CE94 /* shareAndDeleteFoodPinTests.swift */; };
@@ -37,6 +39,8 @@
 		7AC6973D1B4A2BE90062DCAE /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
 		7AC6973F1B4A88190062DCAE /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		7AC697411B4D19BC0062DCAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = SOURCE_ROOT; };
+		7AC697431B4D345D0062DCAE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7AC697451B535A1F0062DCAE /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		7ACC2F391B4500960051CE94 /* shareAndDeleteFoodPin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shareAndDeleteFoodPin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACC2F3D1B4500960051CE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ACC2F3E1B4500960051CE94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AC697441B4D345D0062DCAE /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +74,7 @@
 		7ACC2F301B4500960051CE94 = {
 			isa = PBXGroup;
 			children = (
+				7AC697431B4D345D0062DCAE /* MapKit.framework */,
 				7ACC2F3B1B4500960051CE94 /* shareAndDeleteFoodPin */,
 				7ACC2F511B4500960051CE94 /* shareAndDeleteFoodPinTests */,
 				7ACC2F3A1B4500960051CE94 /* Products */,
@@ -88,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				7ACC2F421B4500960051CE94 /* Main.storyboard */,
+				7AC697451B535A1F0062DCAE /* MapViewController.swift */,
 				7ACC2F5E1B4501740051CE94 /* RestaurantListTableViewController.swift */,
 				7ACC2F601B4502890051CE94 /* RestaurantTableViewCell.swift */,
 				7AA31F741B476C74004BEC05 /* DetailViewController.swift */,
@@ -176,6 +183,11 @@
 				TargetAttributes = {
 					7ACC2F381B4500960051CE94 = {
 						CreatedOnToolsVersion = 6.4;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					7ACC2F4D1B4500960051CE94 = {
 						CreatedOnToolsVersion = 6.4;
@@ -230,6 +242,7 @@
 				7ACC2F5F1B4501740051CE94 /* RestaurantListTableViewController.swift in Sources */,
 				7AA31F771B476E9A004BEC05 /* Restaurant.swift in Sources */,
 				7AA31F751B476C74004BEC05 /* DetailViewController.swift in Sources */,
+				7AC697461B535A1F0062DCAE /* MapViewController.swift in Sources */,
 				7AA31F711B476BAD004BEC05 /* DetailTableViewCell.swift in Sources */,
 				7AC697401B4A88190062DCAE /* ShareViewController.swift in Sources */,
 				7AC6973E1B4A2BE90062DCAE /* ReviewViewController.swift in Sources */,

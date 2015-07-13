@@ -14,6 +14,7 @@ class DetailViewController: UIViewController ,UITableViewDataSource,UITableViewD
 //    var detailImageName:String!
     var restaurants:Restaurant!
     @IBOutlet weak var tableView:UITableView!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,32 +55,41 @@ class DetailViewController: UIViewController ,UITableViewDataSource,UITableViewD
         case 0:
             cell.field.text = "name"
             cell.value.text = restaurants.name
+            cell.mapButtom.hidden = true
         case 1:
             cell.field.text = "type"
             cell.value.text = restaurants.type
+            cell.mapButtom.hidden = true
         case 2:
             cell.field.text = "location"
             cell.value.text = restaurants.location
+            cell.mapButtom.hidden = false
         case 3:
             cell.field.text = "been here"
             cell.value.text = restaurants.isVisited ? "YES,I've been here" : "NO,I havn't been here"
+            cell.mapButtom.hidden = true
         default:
             cell.field.text = ""
             cell.value.text = ""
+            cell.mapButtom.hidden = true
         }
         
         return cell
     }
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        if "showMap" == segue.identifier{
+            let mapViewController = segue.destinationViewController as! MapViewController
+            mapViewController.restaurant = self.restaurants
+        }
     }
-    */
+    
     @IBAction func close(segue:UIStoryboardSegue){
         
     }
